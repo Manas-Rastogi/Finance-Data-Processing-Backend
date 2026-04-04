@@ -3,3 +3,5 @@ spring:
     mongodb:
       uri: ${SPRING_DATA_MONGODB_URI}
       database: Finance_DB
+server:
+  port: ${PORT:8080}
