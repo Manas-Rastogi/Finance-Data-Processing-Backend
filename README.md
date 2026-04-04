@@ -16,6 +16,14 @@ Only an admin should be able to create or modify anything.
 That is exactly what this backend does.
 
 
+Live API
+
+https://finance-data-processing-backend-yxpg.onrender.com
+
+Note: First request may take 30-60 seconds as the server
+spins up on free tier.
+
+
 Roles
 
 Admin
@@ -38,21 +46,25 @@ Java 17
 Spring Boot 3
 Spring Security
 JWT for authentication
-MongoDB
+MongoDB Atlas
 Maven
 
 
 Running This Locally
 
-You need Java 17 and MongoDB installed.
+You need Java 17 installed.
 
 Clone the repo first:
 
 git clone https://github.com/Manas-Rastogi/Finance-Data-Processing-Backend.git
 
-Go into the folder and update application.properties:
+Go into the folder and update application.yml:
 
-spring.data.mongodb.uri=mongodb://localhost:27017/financedb
+spring:
+  data:
+    mongodb:
+      uri: your_mongodb_atlas_uri
+      database: Finance_DB
 
 Then run:
 
