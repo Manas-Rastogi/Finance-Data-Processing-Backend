@@ -24,17 +24,17 @@ COPY src src
 RUN ./mvnw clean package -DskipTests -Dmaven.test.skip=true
 
 
-# Stage 2Run the JAR
+#Stage 2Run the JAR
 FROM eclipse-temurin:17-jre-alpine
 
 # Set working directory
 WORKDIR /app
 
-# 1️⃣ Copy the JAR file from the build stage
+# Copy the JAR file from the build stage
 COPY --from=builder /app/target/*.jar app.jar
 
-# 2️⃣ Expose application port
+#Expose application port
 EXPOSE 8080
 
-# 3️⃣ Run the Spring Boot application
+#Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
