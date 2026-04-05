@@ -17,14 +17,14 @@ public class UserController {
 
     //update role Admin only
     @PatchMapping("/{id}/role")
-    public ResponseEntity<?> updateRole(@PathVariable Long id, @RequestBody RoleUpdateDTO roleUpdateDTO){
+    public ResponseEntity<?> updateRole(@PathVariable String id, @RequestBody RoleUpdateDTO roleUpdateDTO){
 
         return new ResponseEntity(userService.UpdateUser(id, roleUpdateDTO), HttpStatus.OK);
     }
 
     // Status change Admin only
     @PatchMapping("/{id}/status")
-    public ResponseEntity<?> updateStatus(@PathVariable Long id, @RequestBody StatusUpdateDTO statusUpdateDTO){
+    public ResponseEntity<?> updateStatus(@PathVariable String id, @RequestBody StatusUpdateDTO statusUpdateDTO){
         return new ResponseEntity(userService.updateStatus(id, statusUpdateDTO), HttpStatus.OK);
     }
 
