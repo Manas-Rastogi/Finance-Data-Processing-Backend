@@ -24,7 +24,7 @@ public class UserService {
         UserEntity user=useropl.get();
         if(user==null) throw new ResourcesNotFound("NOT FOUND USER");
 
-        user.setRoles((List<String>) roleUpdateDTO);
+       user.setRoles(List.of(roleUpdateDTO.getRole()));
 
         userRepo.save(user);
 
