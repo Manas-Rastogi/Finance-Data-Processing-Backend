@@ -18,7 +18,7 @@ public class UserService {
     @Autowired
     private UserRepo userRepo;
 
-    public String UpdateUser(Long id, RoleUpdateDTO roleUpdateDTO){
+    public String UpdateUser(String id, RoleUpdateDTO roleUpdateDTO){
         Optional<UserEntity> useropl=userRepo.findById(String.valueOf(id));
 
         UserEntity user=useropl.get();
@@ -31,7 +31,7 @@ public class UserService {
         return "Successfully Updated User Role";
     }
 
-    public String updateStatus(Long id, StatusUpdateDTO statusUpdateDTO){
+    public String updateStatus(String id, StatusUpdateDTO statusUpdateDTO){
         Optional<UserEntity> useropl=userRepo.findById(String.valueOf(id));
 
         UserEntity user=useropl.get();
