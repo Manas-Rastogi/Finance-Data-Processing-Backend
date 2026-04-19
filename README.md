@@ -22,7 +22,7 @@ Analyst Can read transactions and view dashboard insights. Cannot create or modi
 Viewer Can only see the summary dashboard. Total income, total expense, net balance. Nothing else.
 
 Tech I Used
-
+---------------------------------------------------
 Java 17 Spring Boot 3 Spring Security JWT for authentication MongoDB Atlas Maven
 
 Running This Locally
