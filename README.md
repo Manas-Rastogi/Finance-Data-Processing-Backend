@@ -3,7 +3,7 @@ Finance Data Processing and Access Control Backend
 Built this as part of a screening assignmet. The idea was to create a backend that handles financial records where different users have different levels of access.
 
 The Problem I Was Solving
-
+---------------------------------------------------
 Imagine a company that tracks its income and expenses. Not everyone should be able to add or delete records. A viewer should only see the summary. An analyst should be able to read the data. Only an admin should be able to create or modify anything.
 
 That is exactly what this backend does.
