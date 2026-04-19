@@ -1,6 +1,6 @@
 Finance Data Processing and Access Control Backend
 
-Built this as part of a screening assignment for Zorvyn FinTech. The idea was to create a backend that handles financial records where different users have different levels of access.
+Built this as part of a screening assignmet. The idea was to create a backend that handles financial records where different users have different levels of access.
 
 The Problem I Was Solving
 
