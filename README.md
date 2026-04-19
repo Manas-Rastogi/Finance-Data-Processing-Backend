@@ -1,4 +1,4 @@
-Finance Data Processing and Access Control Backend
+koFinance Data Processing and Access Control Backend
 ---------------------------------------------------
 Built this as part of a screening assignmet. The idea was to create a backend that handles financial records where different users have different levels of access.
 
@@ -51,7 +51,7 @@ Or use the live deployed API directly:
 https://finance-data-processing-backend-yxpg.onrender.com
 
 How Login Works
-
+---------------------------------------------------
 Register a user:
 
 POST /Auth/create/user
