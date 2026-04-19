@@ -30,7 +30,7 @@ Running This Locally
 You need Java 17 installed.
 
 Clone the repo first:
-
+---------------------------------------------------
 git clone https://github.com/Manas-Rastogi/Finance-Data-Processing-Backend.git
 
 Go into the folder and update application.yml:
