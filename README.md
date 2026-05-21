@@ -1,4 +1,5 @@
-koFinance Data Processing and Access Control Backend
+Finance Data Processing and Access Control Backend
+--------------------------------------------------
 ---------------------------------------------------
 Built this as part of a screening assignmet. The idea was to create a backend that handles financial records where different users have different levels of access.
 
