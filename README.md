@@ -105,7 +105,7 @@ GET /dashboard/category-wise  — breakdown by category (Admin, Analyst)
 GET /dashboard/trends         — monthly data (Admin, Analyst)
 
 Data Structure
-
+---------------------------------------------------
 User:
 id
 name
