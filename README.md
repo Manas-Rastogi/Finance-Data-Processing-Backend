@@ -148,7 +148,7 @@ Token carries the user role and is verified on every request.
 Dashboard:
 All calculations happen on the server.
 Client just gets the final numbers.
-
+---------------------------------------------------
 Assumptions
 
 Categories are free text, no fixed list enforced
