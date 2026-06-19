@@ -127,7 +127,7 @@ isDeleted      — soft delete flag
 createdAt
 
 Things I Kept in Mind
-
+---------------------------------------------------
 Soft delete:
 Transactions are never removed from the database.
 isDeleted is set to true instead.
