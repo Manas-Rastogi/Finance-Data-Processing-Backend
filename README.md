@@ -165,7 +165,7 @@ DTO            — what goes in and what comes out
 Repository     — database queries
 Security       — JWT filter and security config
 Exception      — global error handling
-
+-----------------------------------
 What I Would Add With More Time
 
 Swagger UI for live API documentation
