@@ -157,7 +157,7 @@ A deleted transaction returns 404, not the record
 Admin cannot deactivate or change their own role
 
 Folder Structure
-
+---------------------------------------------------
 Controller     — handles incoming requests
 Service        — business logic lives here
 Entity         — MongoDB document structure
