@@ -73,7 +73,7 @@ POST /Auth/login
 }
 
 You get a token back. Use it in every request:
-
+---------------------------------------------------
 Authorization: Bearer <token>
 
 APIs
