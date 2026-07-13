@@ -77,7 +77,7 @@ You get a token back. Use it in every request:
 Authorization: Bearer <token>
 
 APIs
-
+---------------------------------------------------
 Auth:
 POST   /Auth/create/user   — register
 POST   /Auth/login         — login, get token
