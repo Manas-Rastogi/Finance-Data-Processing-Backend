@@ -99,7 +99,7 @@ Filtering supported on GET /transactions:
 ?category=salary
 ?type=income&category=salary
 ?page=0&limit=10
-
+---------------------------------------------------
 Dashboard:
 GET /dashboard/summary        — income, expense, balance (All roles)
 GET /dashboard/category-wise  — breakdown by category (Admin, Analyst)
