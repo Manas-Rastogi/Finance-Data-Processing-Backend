@@ -52,7 +52,7 @@ Server starts at http://localhost:8080
 
 Or use the live deployed API directly:
 https://finance-data-processing-backend-yxpg.onrender.com
-
+---------------------------------------------------
 How Login Works
 ---------------------------------------------------
 Register a user:
