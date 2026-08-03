@@ -169,7 +169,7 @@ Security       — JWT filter and security config
 Exception      — global error handling
 ---------------------------------------------------
 What I Would Add With More Time
-
+---------------------------------------------------
 Swagger UI for live API documentation
 Unit tests for service layer
 Date range filtering on transactions
