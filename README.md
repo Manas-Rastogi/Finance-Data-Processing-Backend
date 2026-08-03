@@ -14,7 +14,7 @@ That is exactly what this backend does.
 ---------------------------------------------------
 Live API
 https://finance-data-processing-backend-yxpg.onrender.com
-
+---------------------------------------------------
 Note: First request may take 30-60 seconds as the server spins up on free tier.
 ---------------------------------------------------
 Roles
