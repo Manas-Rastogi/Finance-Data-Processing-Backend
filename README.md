@@ -152,7 +152,7 @@ All calculations happen on the server.
 Client just gets the final numbers.
 ---------------------------------------------------
 Assumptions
-
+---------------------------------------------------
 Categories are free text, no fixed list enforced
 Dashboard shows company wide data, not per user
 A deleted transaction returns 404, not the record
