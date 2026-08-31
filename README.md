@@ -157,7 +157,7 @@ Categories are free text, no fixed list enforced
 Dashboard shows company wide data, not per user
 A deleted transaction returns 404, not the record
 Admin cannot deactivate or change their own role
-
+---------------------------------------------------
 Folder Structure
 ---------------------------------------------------
 Controller     — handles incoming requests
