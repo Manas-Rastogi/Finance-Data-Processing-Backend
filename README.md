@@ -24,7 +24,7 @@ Admin Can do everything. Create users, assign roles, add transactions, update th
 Analyst Can read transactions and view dashboard insights. Cannot create or modify anything.
 
 Viewer Can only see the summary dashboard. Total income, total expense, net balance. Nothing else.
-
+---------------------------------------------------
 Tech I Used
 ---------------------------------------------------
 Java 17 Spring Boot 3 Spring Security JWT for authentication MongoDB Atlas Maven
