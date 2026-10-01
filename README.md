@@ -14,6 +14,7 @@ Imagine a company that tracks its income and expenses. Not everyone should be ab
 ---------------------------------------------------
 That is exactly what this backend does.
 ---------------------------------------------------
+---------------------------------------------------
 Live API
 https://finance-data-processing-backend-yxpg.onrender.com
 ---------------------------------------------------
