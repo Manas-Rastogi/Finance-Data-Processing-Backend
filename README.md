@@ -21,6 +21,7 @@ https://finance-data-processing-backend-yxpg.onrender.com
 ---------------------------------------------------
 Note: First request may take 30-60 seconds as the server spins up on free tier.
 ---------------------------------------------------
+---------------------------------------------------
 Roles
 ---------------------------------------------------
 Admin Can do everything. Create users, assign roles, add transactions, update them, delete them.
