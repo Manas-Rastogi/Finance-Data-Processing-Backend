@@ -24,6 +24,7 @@ Note: First request may take 30-60 seconds as the server spins up on free tier.
 ---------------------------------------------------
 Roles
 ---------------------------------------------------
+---------------------------------------------------
 Admin Can do everything. Create users, assign roles, add transactions, update them, delete them.
 
 Analyst Can read transactions and view dashboard insights. Cannot create or modify anything.
